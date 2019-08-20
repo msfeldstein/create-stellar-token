@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "bin": {
+    "create-stellar-token": "index.js"
+  },
   "dependencies": {
     "command-line-args": "^5.1.1",
     "readline-sync": "^1.4.10",
