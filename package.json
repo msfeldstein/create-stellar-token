@@ -1,0 +1,11 @@
+{
+  "name": "create-stellar-token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "readline-sync": "^1.4.10",
+    "stellar-sdk": "^2.3.0"
+  }
+}
