@@ -6,7 +6,7 @@ Create a custom Stellar token on Testnet.  You can specify keys for any of the a
 
 `--distribution-seed=[seed]` Private key for the distribution account
 
-`--client-seed=[seed]` Optional private key for a client account to receive a disbursement.
+`--client-seed=[seed]` Private key for a client account to receive a disbursement.
 
 `--asset=[code]` Asset name
 
