@@ -102,7 +102,8 @@ async function generate() {
     console.log(chalk.green(`Sending ${AMOUNT_TO_CLIENT} ${ASSET} to client`));
     const clientAccount = await server.loadAccount(clientKey.publicKey());
     const sendToClientTx = new StellarSdk.TransactionBuilder(clientAccount, {
-      fee
+      fee,
+      networkPassphrase: StellarSdk.Networks.TESTNET
     })
       .addOperation(
         StellarSdk.Operation.changeTrust({
