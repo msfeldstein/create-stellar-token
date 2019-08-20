@@ -34,6 +34,7 @@ console.log(
    ${getPubKey(opts["distribution-seed"]) || "a random distributer"}
    with ${AMOUNT_TO_CLIENT} given to
    ${getPubKey(opts["client-seed"]) || "a new client account"}
+   on Testnet
    `
 	)
 );
