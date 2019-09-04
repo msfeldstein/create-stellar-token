@@ -114,7 +114,7 @@ async function generate() {
         StellarSdk.Operation.payment({
           destination: clientKey.publicKey(),
           asset,
-          amount: "1000",
+          amount: String(AMOUNT_TO_CLIENT),
           source: distributionKey.publicKey()
         })
       )
