@@ -5,8 +5,6 @@ const chalk = require("chalk");
 const cmd = require("command-line-args");
 const readlineSync = require("readline-sync");
 
-StellarSdk.Network.useTestNetwork();
-
 const opts = cmd([
   { name: "client-seed", type: String },
   { name: "issuer-seed", type: String },
