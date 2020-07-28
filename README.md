@@ -1,3 +1,7 @@
+# MOVED
+
+Use the official stellar repo: https://github.com/stellar/create-stellar-token
+
 # create-stellar-token
 
 Create a custom Stellar token on Testnet.  You can specify keys for any of the accounts used.  If no seed is specified random accounts will be created for you.  All parameters are optional.
