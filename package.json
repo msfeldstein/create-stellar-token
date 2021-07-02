@@ -11,6 +11,6 @@
     "command-line-args": "^5.1.1",
     "node-fetch": "^2.6.0",
     "readline-sync": "^1.4.10",
-    "stellar-sdk": "^3.3.0"
+    "stellar-sdk": "^8.2.3"
   }
 }
